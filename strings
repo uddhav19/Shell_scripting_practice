@@ -1,0 +1,16 @@
+#!/bin/bash
+
+myvar="Hey Buddy, How are you ?"
+
+myvarlen=${#myvar}
+echo "lenghth of the myvar is $myvarlen"
+
+echo "upper case is ${myvar^^}"
+echo "Lower case is ${myvar,,}"
+
+#To replace a string
+newvar=${myvar/Hey/Hello}
+echo "new var is $newvar"
+
+#To slice a string
+echo "after slice ${myvar:3:4}"
