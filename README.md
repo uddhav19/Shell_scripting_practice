@@ -41,4 +41,4 @@ The repository includes scripts covering the following areas:
 ## ▶️ How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/uddhav19/Shell_scripting_practice
+   git clone https://github.com/uddhav19/Shell_scripting_practice.git
